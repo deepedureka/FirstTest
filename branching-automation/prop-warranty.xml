@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com">
+
+       <target repos="svn://xisscm.xchanging.com/imrce-appservices" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+                    <source branch="releases/2018S01" revision="1985">
+                           <include branch="features/imrce-appservices-IMRReplatform-warranty" fromRevision="1987" toRevision="2016"/>
+                    </source>
+					
+       </target>
+       
+	     
+	   <target repos="svn://xisscm.xchanging.com/imrcn-nativerepo" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+			<source branch="releases/2018S01" revision="1005">
+			    <include branch="features/imrcn-nativerepo-IMRReplatform-warranty" fromRevision="1007" toRevision="1032"/>
+				
+			</source>
+		</target>
+					
+		<target repos="svn://xisscm.xchanging.com/imrcn-asdirectload" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+            <source branch="releases/2018S01" revision="667">
+				<include branch="features/imrcn-asdirectload-IMRReplatform-warranty" fromRevision="669" toRevision="693"/>
+			</source>
+        </target> 
+		
+	
+		<target repos="svn://xisscm.xchanging.com/imrcn-ecfdirectload" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+            <source branch="releases/2018S01" revision="396">
+				<include branch="features/imrcn-ecfdirectload-IMRReplatform-warranty" fromRevision="397" toRevision="410"/>
+			</source>
+        </target> 
+		
+		
+		<target repos="svn://xisscm.xchanging.com/imrcn-sso" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+            <source branch="releases/2018S01" revision="250">
+				<include branch="features/imrcn-sso-IMRReplatform-warranty" fromRevision="251" toRevision="261"/>
+			</source>
+        </target> 
+		
+		
+		
+		<target repos="svn://xisscm.xchanging.com/imr-desktop-configuration" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+            <source branch="features/imr-desktop-configuration-IMRReplatform-warranty" revision="166">
+				<include branch="features/imr-desktop-configuration-IMRReplatform-warranty" fromRevision="171" toRevision="179"/>
+			</source>
+        </target> 
+		
+		
+		<target repos="svn://xisscm.xchanging.com/dms" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+            <source branch="2018S01" revision="2864">
+				<include branch="dms-IMRReplatform-warranty" fromRevision="2866" toRevision="2875"/>
+			</source>
+        </target> 
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="releases/2018T04" mailTo="aman.singha@xchanging.com">
+			<source branch="releases/2018S01" revision="2703">
+			    <include branch="features/xsb-prem-accounting-IMRReplatform-warranty" fromRevision="2670" toRevision="2716"/>
+				
+	</source>
+		</target>  
+		
+	   
+</project>

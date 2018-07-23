@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com">
+
+
+		                 <target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsb" mailTo="ruchi.dhiman@xchanging.com">
+                    <source branch="releases/2018S01_S02" revision="9468">
+        <include branch="features/xsb-ecf-ECF_PBSBinders-1" fromRevision="9471" toRevision="9705"/>
+                                <include branch="features/xsb-ecf-CSRP-1.3" fromRevision="9454" toRevision="9456"/>
+                    </source>
+        </target>
+
+
+		
+
+</project>

@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com">
+		
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsa" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2017S02" revision="7927">
+			    <include branch="features/xsb-ecf-WBCR-24-2" fromRevision="8034" toRevision="8035"/>
+				<include branch="features/xsb-ecf-CSRP-1.2" fromRevision="8001" toRevision="8002"/>
+			</source>
+		</target>
+		
+		<!--*************************************XDS-Service-Layer(2017S01)*********************************************************-->
+		
+		<target repos="svn://xisscm.xchanging.com/xds-services" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+            <source branch="releases/2016S05" revision="864">
+				<include branch="features/xds-services-IMRReplatform-2.2" fromRevision="896" toRevision="1041"/>
+			</source>
+        </target> 
+		
+		<target repos="svn://xisscm.xchanging.com/xds-services" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2016S05" revision="864">
+				<include branch="features/xds-services-IMRReplatform-2.2" fromRevision="896" toRevision="909"/>
+			</source>
+        </target> 
+		
+		<target repos="svn://xisscm.xchanging.com/xds-ui" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+            <source branch="releases/2016S05" revision="162">
+				<include branch="features/xds-ui-IMRReplatform-2.2" fromRevision="178" toRevision="381"/>
+			</source>
+        </target>
+		<target repos="svn://xisscm.xchanging.com/xds-ui" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2016S05" revision="162">
+				<include branch="features/xds-ui-IMRReplatform-2.2" fromRevision="178" toRevision="208"/>
+			</source>
+        </target> 		
+		
+		<!--*************************************IMR-Legacy(2017S01)*********************************************************-->
+		<target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+            <source branch="releases/2016S05" revision="2254">
+                  <include branch="features/imr-legacy-IMRReplatform-2.2" fromRevision="2284" toRevision="2314"/>
+            </source>
+		</target>	
+		
+		
+		<target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2016S05" revision="2046">
+                  <include branch="features/imr-legacy-IMRReplatform-2.2" fromRevision="2136" toRevision="2184"/>
+            </source>
+		</target>	
+		
+		<!--*************************************IMR-Appsi(2017S01)*********************************************************-->     
+		<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/dev" mailTo="varun.kumar2@xchanging.com"> 
+			<source branch="releases/2016S05" revision="1525">
+				<include branch="features/imr-appsi-IMRReplatform-2.2" fromRevision="1547" toRevision="1614"/>
+			</source>
+		</target-->	
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/FebDev" mailTo="Nikhil.Gupta@xchanging.com"> 
+			<source branch="releases/2016S05" revision="1525">
+				<include branch="features/imr-appsi-IMRReplatform-2.2" fromRevision="1547" toRevision="1601"/>
+			</source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com"> 
+			<source branch="releases/2016S05" revision="1525">
+				<include branch="features/imr-appsi-IMRReplatform-2.2" fromRevision="1547" toRevision="1601"/>
+			</source>
+		</target-->	
+		
+		<!--*************************************IMR-WEB(2017S01)*********************************************************-->     
+		<!--target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/dev" mailTo="Nikhil.Gupta@xchanging.com"> 
+			<source branch="releases/2016S05" revision="5446">
+			</source>
+		</target-->
+		
+		<!--*************************************IMR-WEB(2017S01)*********************************************************-->     
+		<!--target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com"> 
+			<source branch="releases/2016S05" revision="5446">
+			</source>
+		</target-->
+                
+		<!--*************************************IMR-Processes(2017S01)*********************************************************-->     
+		<!--target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/dev" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="1361">	
+			</source>
+		</target-->
+		
+		<target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="1361">
+			</source>
+		</target>
+		
+		<!--*************************************XSH(2017S01)*********************************************************-->  
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+            <source branch="releases/2016S05" revision="3231">
+			<include branch="features/xsh-IMRReplatform-2.2" fromRevision="3340" toRevision="3382"/>
+			</source>
+		</target-->
+		
+		<target repos="svn://xisscm.xchanging.com/xsh" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2016S05" revision="3263">
+				<include branch="features/xsh-IMRReplatform-2.2" fromRevision="3264" toRevision="3265"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/cas" branch="environments/dev" mailTo="Ishu.Singh@xchanging.com">
+			<source branch="releases/2016S05" revision="8150">
+			<include branch="cas/features/cas-IMRReplatform-2.2" fromRevision="8170" toRevision="8190"/>
+			</source>
+		</target>
+ 
+		<!--target repos="svn://xisscm.xchanging.com/cas" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="8029">
+			</source>
+		</target-->
+		
+		
+		<!--*************************************IMR-Content-Engine(2016S05)*********************************************--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="1960">
+				<include branch="features/imr-content-engine--IMRReplatform-2.2" fromRevision="2085" toRevision="2091"/>
+			</source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05_2.2" revision="1874">
+				<include branch="features/imr-content-engine-IMRReplatform-2.2" fromRevision="1724" toRevision="1930"/>
+			</source>
+		</target-->
+		
+		<!--*************************************IMR-App(2017S01)*********************************************************-->     
+		<target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="9586">
+				<include branch="features/imr-app-IMRReplatform-2.2" fromRevision="9713" toRevision="9918"/>
+			</source>
+		</target>
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05_2.2" revision="9215">
+				<include branch="features/imr-app-IMRReplatform-2.2" fromRevision="9035" toRevision="9240"/>
+			</source>
+		</target-->
+		
+		<!--*************************************XSB-IMR(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/dev" mailTo="Ishu.Singh@xchanging.com">
+			<source branch="releases/2016S05" revision="3742"> 
+				<include branch="features/xsb-imr-IMRReplatform-2.2" fromRevision="3711" toRevision="3906"/>
+			</source>
+		</target-->	
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsb" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05_2.2" revision="3716"> 
+				<include branch="features/xsb-imr-IMRReplatform-2.2" fromRevision="3438" toRevision="3757"/>
+			</source>
+		</target-->		
+		
+		<!--*************************************XSB-ECF(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="6373">
+				<include branch="features/xsb-ecf-IMRReplatform-2.2" fromRevision="6448" toRevision="6498"/>
+			</source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsb" mailTo="ruchi.dhiman@xchanging.com">
+			<source branch="releases/2016S05" revision="6287">
+			    <include branch="features/xsb-ecf-WBCR-24-1" fromRevision="6289" toRevision="6293"/>
+				<include branch="features/xsb-ecf-IMRReplatform-2.2" fromRevision="6157" toRevision="6292"/>
+			</source>
+		</target-->
+
+		<!--*************************************IMR-XMA(2017S01)*********************************************************-->     
+		<target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="4163">
+				<include branch="features/imr-xma-IMRReplatform-2.2" fromRevision="4281" toRevision="4287"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="3844">
+				<include branch="features/imr-xma-IMRReplatform-2.2" fromRevision="3986" toRevision="4015"/>
+			</source>
+		</target>
+		
+		<!--*************************************DMS(2016S05)*********************************************************-->         
+		<!--target repos="svn://xisscm.xchanging.com/dms" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="2347">
+				<include branch="features/dms-IMRReplatform--2.2" fromRevision="2375" toRevision="2376"/>
+			</source>
+		</target--> 
+		
+		<target repos="svn://xisscm.xchanging.com/dms" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="2347">
+			<include branch="features/dms--IMRReplatform-2.2" fromRevision="2346" toRevision="2351"/>
+			</source>
+		</target>
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsaenvironments/tsa" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S05" revision="3742">
+			</source>
+		</target--> 
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsa" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S05" revision="6287">
+			</source>
+		</target--> 
+		
+		<!--*************************************PFT-Apix-app(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/apix-app" branch="environments/dev" mailTo="jeewan.rekhja@xchanging.com">
+            <source branch="releases/2016S02" revision="3479">
+				<include branch="features/apix-app-PFT-Feb-PKE12417" fromRevision="3485" toRevision="3495"/>
+			</source>
+        </target--> 
+	
+		<!--target repos="svn://xisscm.xchanging.com/apix-app" branch="environments/tsb" mailTo="jeewan.rekhja@xchanging.com">
+            <source branch="releases/2016S02" revision="3479">
+				<include branch="features/apix-app-PFT-Feb-PKE12417" fromRevision="3485" toRevision="3495"/>
+			</source>
+        </target--> 
+		
+	<!--*************************************XSB-mtrt(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="364">
+				<include branch="features/xsb-mtrt-IMRReplatform-2.2" fromRevision="506" toRevision="551"/>
+			</source>
+		</target-->
+		<!--*************************************XSB-mtrt(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="364">
+				<include branch="features/xsb-mtrt-IMRReplatform-2.2-Predev-1" fromRevision="506" toRevision="551"/>
+			</source>
+		</target-->
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="364">
+				<include branch="features/xsb-mtrt-IMRReplatform-2.2" fromRevision="405" toRevision="426"/>
+			</source>
+		</target>
+		
+		<!--*************************************XSB-utilities(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="1062">
+				<include branch="features/xsb-utilities-IMRReplatform-2.2" fromRevision="1228" toRevision="1275"/>
+			</source>
+		</target-->
+	     <!--*************************************XSB-prem-accnt(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/dev" mailTo="Ishu.Singh@xchanging.com">
+			<source branch="releases/2016S05" revision="822">
+				<include branch="features/xsb-prem-accounting-IMRReplatform-2.2" fromRevision="876" toRevision="993"/>
+			</source>
+		</target-->
+		<!--target repos="svn://xisscm.xchanging.com/common-api" branch="environments/dev" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="122">
+				<include branch="features/common-api-IMR-Replatform-2.2" fromRevision="122" toRevision="136"/>
+			</source>
+		</target-->
+		<!--*************************************Xomp-web(2017S01)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/dev" mailTo="Ishu.Singh@xchanging.com">
+			<source branch="releases/2016S05" revision="443">
+				<include branch="features/xomp-web-IMRReplatform-2.2" fromRevision="451" toRevision="496"/>
+			</source>
+		</target-->
+		
+		<target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2016S05" revision="443">
+				<include branch="features/xomp-web-IMRReplatform-2.2" fromRevision="451" toRevision="463"/>
+			</source>
+		</target>
+		  
+		  <!--*************************************XSB-prem-accnt(2017S01)*********************************************************-->
+		<target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="822">
+				<include branch="features/xsb-prem-accounting-IMRReplatform-2.2-Predev-1" fromRevision="1039" toRevision="1167"/>
+			</source>
+		</target>
+			
+			
+				<target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+				<source branch="releases/2016S05" revision="4089"> 
+					<include branch="features/xsb-imr-IMRReplatform-2.2-Predev-1" fromRevision="4026" toRevision="4101"/>
+				</source>
+			</target>
+
+	
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="6513">
+				<include branch="features/xsb-ecf-IMRReplatform-2.2-Predev-1" fromRevision="6448" toRevision="6498"/>
+			</source>
+		</target>	
+		<!--*************************************XSB-utilities(2017S01)*********************************************************-->
+		<target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="varun.kumar2@xchanging.com">
+			<source branch="releases/2016S05" revision="1101">
+				<include branch="features/xsb-utilities-IMRReplatform-2.2-Predev-1" fromRevision="1228" toRevision="1343"/>
+			</source>
+		</target>	
+
+</project>
+
+	
+	
+
+
+	
+	

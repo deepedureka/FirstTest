@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="LimitedString">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="LimitedDecimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="1" />
+    </xs:restriction>
+</xs:simpleType>
+<xs:element name="project">
+   <xs:complexType>
+      <xs:sequence>
+		<xs:element name="target" maxOccurs="unbounded">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="source" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="include"  minOccurs="0" maxOccurs="unbounded">
+									<xs:complexType>
+										<xs:attribute name="branch" type="LimitedString" use="required"/>
+										<xs:attribute name="fromRevision" type="LimitedDecimal" use="required"/>
+										<xs:attribute name="toRevision" type="LimitedDecimal" use="required"/>
+									</xs:complexType>
+								</xs:element>							
+							</xs:sequence>
+							<xs:attribute name="branch" type="LimitedString" use="required"/>
+							<xs:attribute name="revision" type="LimitedDecimal" use="required"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="jar" minOccurs="0" maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="include" maxOccurs="unbounded">
+									<xs:complexType>
+										<xs:attribute name="path" type="LimitedString" use="required"/>
+									</xs:complexType>
+								</xs:element>							
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>					
+				</xs:sequence>
+				<xs:attribute name="repos" type="LimitedString" use="required"/>
+				<xs:attribute name="branch" type="LimitedString" use="required"/>
+				<xs:attribute name="mailTo" type="LimitedString" use="required"/>
+			</xs:complexType>
+       </xs:element>
+     </xs:sequence>
+    <xs:attribute name="mailCC" type="LimitedString" use="required"/>
+   </xs:complexType>
+</xs:element>
+</xs:schema>

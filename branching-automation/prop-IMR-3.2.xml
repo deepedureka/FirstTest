@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com"> 
+		
+		
+		<target repos="svn://xisscm.xchanging.com/imr-legacy/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02_TSC" revision="2579">
+                    <include branch="features/imr-legacy-IMRReplatform-3.2" fromRevision="2581" toRevision="2588"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/cas" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="8619">
+                    <include branch="features/cas-IMRReplatform-3.2" fromRevision="8672" toRevision="8783"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="5771">
+				<include branch="features/imr-web-ITC-CR-0012" fromRevision="5830" toRevision="5864"/>
+			</source>
+		</target>
+				
+		<target repos="svn://xisscm.xchanging.com/dfv-fetchandstitch" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2013S06_temp" revision="860">
+                    <include branch="features/dfv-fetchandstitch-IMRReplatform-3.2" fromRevision="893" toRevision="1041"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/dsee-config" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2016S01" revision="111">
+                    <include branch="features/dsee-config-IMR-Replatform-3.2" fromRevision="144" toRevision="145"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/xsh/" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="3707">
+				<include branch="features/xsh-IMRReplatform-3.2" fromRevision="3744" toRevision="3772"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="4629">
+				<include branch="features/imr-xma-IMRReplatform-3.2" fromRevision="4636" toRevision="4896"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02_TSC" revision="2579">
+                  <include branch="features/imr-legacy-IMRReplatform-3.2" fromRevision="2581" toRevision="2588"/>
+            </source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/common-api/" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="200">
+				<include branch="features/common-api-IMRReplatform-3.2" fromRevision="212" toRevision="571"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="1799">
+				<include branch="features/xsb-prem-accounting-IMRReplatform-3.2" fromRevision="1905" toRevision="2226"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="5604">
+				<include branch="features/xsb-imr-IMRReplatform-3.2" fromRevision="5654" toRevision="5789"/>
+			</source>
+		</target>	
+
+		<target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="2151">
+				<include branch="features/xsb-utilities-IMRReplatform-3.2" fromRevision="2162" toRevision="2308"/>
+				<include branch="features/xsb-utilities-ITC-CR-0012" fromRevision="2226" toRevision="2254"/>
+			</source>
+		</target>
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="1004">
+				<include branch="features/xsb-mtrt-IMRReplatform-3.2" fromRevision="1035" toRevision="1037"/>
+			</source>
+		</target>
+
+		<target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="7927">
+				<include branch="features/xsb-ecf-IMRReplatform-3.2" fromRevision="7999" toRevision="8122"/>
+			</source>
+		</target>
+				
+		<target repos="svn://xisscm.xchanging.com/dms" branch="environments/tsa" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2017S02" revision="2603">
+				<include branch="features/dms-IMRReplatform-3.2" fromRevision="2611" toRevision="2717"/>
+			</source>
+		</target>
+			
+		<target repos="svn://xisscm.xchanging.com/xds-ui" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="806">
+                    <include branch="features/xds-ui-IMRReplatform-3.2" fromRevision="810" toRevision="1062"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/xds-services" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="1541">
+                    <include branch="features/xds-services-IMRReplatform-3.2" fromRevision="1543" toRevision="1797"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/xds-directory-store" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="167">
+					<include branch="features/xds-directory-store-ITC-CR-0012" fromRevision="192" toRevision="193"/>
+            </source>
+        </target>
+
+		<target repos="svn://xisscm.xchanging.com/xars-webservices" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="180">
+                    <include branch="features/xars-webservices-IMRReplatform-3.2" fromRevision="160" toRevision="260"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/xars-pre-aggregation-rules" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="52">
+                    <include branch="features/xars-pre-aggregation-rules-IMRReplatform-3.2" fromRevision="60" toRevision="88"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/telemetry-web" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="releases/2017S02" revision="63">
+                    <include branch="features/telemetry-web-IMRReplatform-3.2" fromRevision="72" toRevision="73"/>
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/telemetry-app-reporting" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="features/telemetry-app-reporting-IMRReplatform-3.2" revision="69">
+            </source>
+        </target>
+		
+		<target repos="svn://xisscm.xchanging.com/telemetry-pre-aggregation-reports" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+            <source branch="features/telemetry-pre-aggregation-reports-IMRReplatform-3.2" revision="24">
+            </source>
+        </target>
+		
+    <!--********************************************DATUM Components******************************************************* -->
+		<!--********************************************IMR-CE SI******************************************************-->   
+		<target repos="svn://xisscm.xchanging.com/imrcesi/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcesi-IMRReplatform-3.2" revision="77">
+			</source>
+		</target>
+		
+		<!--****************************************IMR-CE App services******************************************************-->     
+		<target repos="svn://xisscm.xchanging.com/imrce-appservices/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrce-appservices-IMRReplatform-3.2" revision="1521">
+			</source>
+		</target>
+		
+   		<!--*************************************IMRCN A&S Direct Load*********************************************************-->  		
+		<target repos="svn://xisscm.xchanging.com/imrcn-asdirectload/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-asdirectload-IMRReplatform-3.2" revision="420">
+			</source>
+		</target>
+		
+		<!--*************************************IMRCN ECF Direct Load*********************************************************-->  		
+		<target repos="svn://xisscm.xchanging.com/imrcn-ecfdirectload/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-ecfdirectload-IMRReplatform-3.2" revision="283">
+			</source>
+		</target>
+				
+		<!--*************************************IMRCN Homepage*********************************************************-->  		
+		<target repos="svn://xisscm.xchanging.com/imrcn-homepage-web/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-homepage-web-IMRReplatform-Phase-3.2" revision="113">
+			</source>
+		</target>
+		
+		<!--******************************IMRCN Native Repository*****************************************************--> 
+		<target repos="svn://xisscm.xchanging.com/imrcn-nativerepo/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-nativerepo-IMRReplatform-3.2" revision="580">
+			</source>
+		</target>
+			
+		<!--*************************************IMRCN Search*********************************************************-->  		
+		<target repos="svn://xisscm.xchanging.com/imrcn-search/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-search-IMRReplatform-3.2" revision="251">
+			</source>
+		</target>
+		
+		<!--*************************************IMRCN SSO*********************************************************-->	
+         <target repos="svn://xisscm.xchanging.com/imrcn-sso/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-sso-IMRReplatform-3.2" revision="131">
+			</source>
+		</target>
+		
+		<!--*************************************IMRCN Third Party*********************************************************-->	
+         <target repos="svn://xisscm.xchanging.com/imrcn-thirdpartyaddition/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imrcn-thirdpartyaddition-IMRReplatform-3.2" revision="208">
+			</source>
+		</target>
+				
+		<!--**********************************************IMR Plugin Config*****************************************************--> 
+		<target repos="svn://xisscm.xchanging.com/imr-plugin-configuration/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imr-plugin-configuration-IMRReplatform-3.2" revision="14">
+			</source>
+		</target>	
+		
+		<!--**********************************************IMR Desktop Config*****************************************************--> 
+		<target repos="svn://xisscm.xchanging.com/imr-desktop-configuration/" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imr-desktop-configuration-IMRReplatform-3.2" revision="8">
+			</source>
+		</target>	
+		
+		<!--**********************************************IMR Httpd Config*****************************************************--> 
+		<target repos="svn://xisscm.xchanging.com/imr-httpd-configuration-package" branch="environments/tsa" mailTo="Nikhil.Gupta@xchanging.com">
+			<source branch="features/imr-httpd-configuration-IMRReplatform-Phase-3.2" revision="39">
+			</source>
+		</target>	
+		
+</project>

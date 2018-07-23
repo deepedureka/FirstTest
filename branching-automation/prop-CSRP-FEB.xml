@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com">
+
+		<!--target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/dev" mailTo="naman.jain@xchanging.com">
+                <source branch="releases/2016S05" revision="822">
+				<include branch="features/xsb-prem-accounting-IMRReplatform-2.2" fromRevision="876" toRevision="919"/>
+                </source>
+            </target-->
+                                                              
+            <!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/FebDev" mailTo="varun.kumar2@xchanging.com"> 
+			<source branch="releases/2016S05" revision="1525">
+				<include branch="features/imr-appsi-IMRReplatform-2.2" fromRevision="1547" toRevision="1583"/>
+			</source>
+		</target-->
+		
+		<!--********************************XSB-PBS******************************************************-->
+		<target repos="svn://xisscm.xchanging.com/xsb-pbs" branch="environments/dev_CSRP" mailTo="kumar.manish@xchanging.com">
+            <include branch="features/xsb-pbs-csrp-1.2" Revision="470">
+            </source>
+        </target>
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="releases/2017S01" mailTo="kumar.manish@xchanging.com">
+            <source branch="releases/2016S05" revision="9327">
+               <include branch="features/imr-app-CSRPPBSRelease1.1b(ii)-1" fromRevision="9324" toRevision="9392"/>
+                </source>
+            </target>
+                                                              
+           <target repos="svn://xisscm.xchanging.com/imr-web" branch="releases/2017S01" mailTo="kumar.manish@xchanging.com">
+           <source branch="releases/2016S05" revision="5470"/>
+               <include branch="features/imr-web-CSRPPBSRelease1.1b(ii)-1" fromRevision="5473" toRevision="5477"/>
+            </target--> 
+		
+</project>

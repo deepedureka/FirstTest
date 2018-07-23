@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<project mailCC="XTSI-XIS-ITC-RCM@xchanging.com">
+
+	<target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="192">
+			<include branch="features/xsb-mtrt-IMRReplatform-FuseUpgrade" fromRevision="201" toRevision="203"/>
+			</source>
+		</target>
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-IMRReplatform-FuseUpgrade" fromRevision="708" toRevision="733"/>
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="695"/>
+			</source>
+		</target--> 
+	<!--*************************************XSB-MTRT(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="192"/>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="192"/>
+		</target-->
+		
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="114"/>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+            <source branch="releases/2016S02" revision="492">
+                <include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="1058"/> 
+                <include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>  
+            </source>
+        </target>
+		
+
+
+
+            <!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+                <source branch="releases/2016S02" revision="492">
+                   <include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="1025"/> 
+                   <include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>  
+               <include branch="releases/2016S02" fromRevision="503" toRevision="504"/>                   
+             </source>
+            </target--> 
+
+<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+			    <include branch="features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7806" toRevision="7880"/>				
+			</source>
+			</target-->
+
+		
+		<!--*************************************XDS-Service-Layer(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xds-services/" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xds-services-Integrated-Pre-dev" revision="486"/>
+		</target-->
+
+	<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+                                <include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>
+                                <include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+                                <include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3540"/>
+                                <include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3521"/>
+                                <include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+                                <include branch="features/xsb-ecf-Integrated-Pre-Dev" fromRevision="3714" toRevision="3948"/>
+            </source>
+	</target-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S02" revision="3418">           
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3663"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3558"/>
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>			
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+				<include branch="features/xsb-ecf-Integrated-Pre-Dev" fromRevision="3714" toRevision="3948"/>
+			</source>
+		</target-->
+		
+
+<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb_temp" mailTo="amit.bhat@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7806" toRevision="7880"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch="features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target-->
+		
+<!--*************************************XSB-Utilities(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="695"/>
+			</source>
+		</target--> 		
+		   
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="695"/>
+			</source>
+		</target-->	
+
+<!--*************************************XSB-Utilities(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+		<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="648"/>
+		</source>
+		</target--> 
+		
+		   
+<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+		<source branch="releases/2016S01" revision="207">
+			<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="686"/>
+		</source>
+		</target-->	
+
+<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+                <source branch="releases/2016S02" revision="492">
+                                <include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="1009"/> 
+                                <include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>  
+               <include branch="releases/2016S02" fromRevision="503" toRevision="504"/>                   
+</source>
+</target-->
+
+	<!--*************************************XSB-MTRT(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="192"/>
+		</target-->
+		
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="114"/>
+		</target-->
+
+
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="114"/>
+		</target-->
+
+
+
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="121"/>
+		</target-->
+	
+	<!--*************************************XDS-Directory-Store(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xds-directory-store/" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-directory-store-IMRReplatform-1" revision="59"/>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/xds-directory-store/" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-directory-store-IMRReplatform-1" revision="59"/>
+		</target-->
+
+		<!--*************************************XDS-Service-Layer(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xds-services/" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-services-IMRReplatform-1" revision="457"/>
+		</target-->
+		
+	<!--*************************************IMR-APP(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="releases/2016S04" mailTo="ruchi.dhiman@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">           
+								<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+							</source>
+		</target-->	
+
+	<!--*************************************XOMP(2016S05)*********************************************************-->
+    <!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+        <source branch="features/xomp-web-IMRReplatform-1" revision="108">
+        </source>
+    </target-->
+
+	<!--*************************************XSB-Prem-Accounting(2016S0*)***********************************************-->
+		<!--*************************************XSB-Prem-Accounting(2016S0*)***********************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S01" revision="374">
+			<include branch="features/xsb-prem-accounting-Integrated-Pre-dev" fromRevision="486" toRevision="576"/>
+			</source>
+		</target-->
+		
+		<target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S01" revision="374">
+				<include branch="features/xsb-prem-accounting-Integrated-Pre-dev" fromRevision="486" toRevision="644"/>
+				<include branch="features/xsb-prem-accounting-IMRReplatform-FuseUpgrade" fromRevision="660" toRevision="670"/>
+			</source>
+		</target>
+	
+	<!--*************************************XSB-XDS(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-xds" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="190">
+				<include branch="features/xsb-xds-IMRReplatform-2" fromRevision="316" toRevision="320"/>
+			</source>
+		</target> 
+		<target repos="svn://xisscm.xchanging.com/xsb-xds" branch="environments/dev" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S01" revision="190">
+				<include branch="features/xsb-xds-IMRReplatform-2" fromRevision="315" toRevision="336"/>
+			</source>
+		</target-->
+		
+	<!--*************************************XSB-IMR(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+				<include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2152"/>
+			</source>
+		</target-->  
+				<!--include branch="features/xsb-imr-IMRReplatform-2" fromRevision="2042" toRevision="2043"/-->
+				<!--include branch="features/xsb-imr-IMRReplatform-2" fromRevision="2043" toRevision="2081"/-->	
+				
+		<target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/dev" mailTo="naman.jain@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+				<!--include branch="features/xsb-imr-IMRReplatformDP-CMDP-fixes-1" fromRevision="2049" toRevision="2050"/-->
+				<!--include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2205"/-->
+				<include branch="features/xsb-imr-FUSE-UPGRADE-1" fromRevision="2100" toRevision="2298"/>
+			</source>
+		</target>
+
+	<!--*************************************XSB-MTRT(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="164"/>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="106"/>
+		</target-->
+		
+	<!--*************************************XSB-ECF(2016S05)*********************************************************-->
+		<!--*************************************XSB-ECF(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3540"/>
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3521"/>
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+				<include branch="features/xsb-ecf-Integrated-Pre-Dev" fromRevision="3714" toRevision="3868"/>
+            </source>
+		</target-->
+		
+
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsb" mailTo="naman.jain@xchanging.com">
+			<source branch="releases/2016S02" revision="3418">           
+				<include branch="features/xsb-ecf-IMRReplatform-1" fromRevision="3286" toRevision="3375"/>
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3663"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3558"/>
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>			
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+			</source>
+		</target-->	   
+	
+	<!--*************************************IMR-XMA(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/dev" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2015S04" revision="3713">
+				<include branch="features/imr-xma-CSRP-CLAIMS-2" fromRevision="3723" toRevision="3737"/>
+			</source>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="3713">
+				<include branch="features/imr-xma-CSRP-CLAIMS-2" fromRevision="3723" toRevision="3737"/>
+			</source>
+		</target-->
+
+	<!--*************************************XDH(2016S03))***********************************************************-->      
+		<!--target repos="svn://xisscm.xchanging.com/xdh" branch="environment/tsb" mailTo="siddharth.saxena@xchanging.com">
+			<source branch="releases/2016S03" revision="3752">
+				<include branch="features/xdh-bau-2016S04-1" fromRevision="3764" toRevision="3782"/>
+				<include branch="features/xdh-boomerang-CR06-2016T02-1" fromRevision="3766" toRevision="3787"/>      
+			</source>
+		</target-->
+		
+		<!--*************************************XDH(2016S04))***********************************************************-->      
+		<!--target repos="svn://xisscm.xchanging.com/xdh" branch="releases/2016S04" mailTo="vijay.malik@xchanging.com">
+			<source branch="releases/2016S03" revision="3809">
+				<include branch="features/xdh-bau-2016S04-1" fromRevision="3764" toRevision="3782"/>
+				
+				</source>
+		</target-->
+		
+	<!--*************************************IMR-Content-Engine(2016S05)*********************************************--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S02" revision="492">
+				<include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="1009"/> 
+				<include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>  
+			</source>
+		</target-->
+
+		
+	<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/tsb" mailTo="deepak.kumar8@xchanging.com">
+		<source branch="releases/2016S02" revision="492">
+			<include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="675"/>                             
+			<include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="902"/>
+		</source>
+	</target-->		
+    
+	<!--*************************************IMR-WEB(2016S05)*********************************************************-->     
+		<!--target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/dev" mailTo="ruchi.dhiman@xchanging.com"> 
+			<source branch="releases/2016S02_BKP" revision="4991">
+			</source>
+		</target-->
+		
+
+		<!--target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/tsa" mailTo="ruchi.dhiman@xchanging.com"> 
+			<source branch="releases/2016S02_BKP" revision="4991">
+				<include branch="releases/2016S02" fromRevision="4926" toRevision="4993"/>
+			</source>
+		</target-->
+	<!--*************************************XSB-Utilities(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="648"/>
+			</source>
+		</target--> 
+		
+		   
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="601"/>
+			</source>
+		</target-->	
+   
+	<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/dev" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="releases/2016S02" fromRevision="7381" toRevision="7382"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7657"/>
+				<include branch="features/imr-app-WBCR-19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="danveer.goel@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<!--include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7539"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7614" toRevision="7615"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7539"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7694" toRevision="7695"/>
+			</source>
+		</target-->
+    
+	<!--*************************************IMR-Legacy(2016S05)*********************************************************--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="1881">
+				<include branch="features/imr-legacy-CSRP-CLAIMS-1.1" fromRevision="1916" toRevision="1917"/>
+				<include branch="features/imr-legacy-IMRReplatform-1" fromRevision="1848" toRevision="1933"/>
+                <include branch="features/imr-legacy-IMRReplatform-2" fromRevision="1847" toRevision="1899"/>
+			</source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/tsb" mailTo="Ajay.Kumar3@xchanging.com">
+			<source branch="releases/2015S04" revision="1881">
+				<include branch="features/imr-legacy-IMRReplatform-2" fromRevision="1847" toRevision="1899">
+				<include branch="features/imr-legacy-IMRReplatform-1" fromRevision="1848" toRevision="1933"/>
+				<include branch="features/imr-legacy-CSRP-CLAIMS-1.1" fromRevision="1916" toRevision="1917"/>				
+			</source>
+		</target-->
+		
+	<!--*************************************IMR-Processes(2016S05)*********************************************************-->          
+		<!--target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="r1308">
+			</source>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="r1308">
+			</source>
+		</target-->
+            
+    
+     <!--*************************************DMS(2016S05)*****************************************************************-->               
+		<!--<target repos="svn://xisscm.xchanging.com/dms" branch="environments/dev" mailTo="Ajay.kumar3@xchanging.com">
+			<source branch="releases/2014S05_Temp" revision="2022">
+				<include branch="features/dms-IMRReplatform-2" fromRevision="2024" toRevision="2082"/>
+			</source>
+		</target--> 
+
+		
+		<!--target repos="svn://xisscm.xchanging.com/dms" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2014S05_Temp" revision="2022">
+				<include branch="features/dms-IMRReplatform-2" fromRevision="2024" toRevision="2107"/>
+			</source>
+		</target-->
+      
+	<!--*************************************IMR-Appsi(2016S05)*********************************************************-->      
+	<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/dev" mailTo="naman.jain@xchanging.com">
+			<source branch="releases/2016S02" revision="1051">
+				<include branch="releases/2016S02" fromRevision="1066" toRevision="1067"/>
+				<include branch="features/imr-appsi-CSRP-CLAIMS-2" fromRevision="1068" toRevision="1168"/>
+				<include branch="features/imr-appsi-Integrated-Pre-dev" fromRevision="1114" toRevision="1211"/>
+			</source>
+	</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/tsd-test" mailTo="amit.bhat@xchanging.com">
+            <source branch="releases/2016S02" revision="1067">
+				<include branch="features/imr-appsi-CSRP-CLAIMS-2" fromRevision="1068" toRevision="1168"/>
+				<include branch="features/imr-appsi-Integrated-Pre-dev" fromRevision="1114" toRevision="1211"/>
+            </source>
+		</target--> 
+
+	<!--*************************************CAS(2016S05)*********************************************************-->                    
+		<target repos="svn://xisscm.xchanging.com/cas" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="6563">
+				<include branch="/features/cas-CSRP-CLAIMS-1.1" fromRevision="6751" toRevision="6833"/>
+                <include branch="/features/cas-Integrated-Pre-dev" fromRevision="6925" toRevision="7060"/>
+           </source>
+        </target>
+
+
+		<!--target repos="svn://xisscm.xchanging.com/cas" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="6563">
+				<include branch="features/cas-Integrated-Pre-dev" fromRevision="6741" toRevision="6743"/>	
+				<include branch="features/cas-IMRReplatform-2" fromRevision="6570" toRevision="6731"/>				
+            </source>
+		</target-->  
+		 
+	<!--*************************************XSH(2016S05)*********************************************************-->            
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/dev" mailTo="hitesh.marwari@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+				<include branch="features/xsh-IMRReplatform-2" fromRevision="2796" toRevision="2860"/> 
+            </source>
+		</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/tsb" mailTo="hitesh.marwari@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+            </source>
+		</target-->   
+
+<!--*************************************IMR-APP(2016S04)*********************************************************-->
+<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="releases/2016S04" mailTo="ruchi.dhiman@xchanging.com">
+   <source branch="releases/2016S02" revision="7498">           
+			<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+			</source>
+		</target-->	
+
+		<!--*************************************XDS-Directory-Store(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xds-directory-store/" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-directory-store-IMRReplatform-1" revision="52"/>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/xds-directory-store/" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-directory-store-IMRReplatform-1" revision="52"/>
+		</target-->
+		
+		<!--*************************************XDS-Service-Layer(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xds-services/" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xds-services-IMRReplatform-1" revision="457"/>
+		</target-->
+		
+	<!--*************************************IMR-APP(2016S04)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="releases/2016S04" mailTo="ruchi.dhiman@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">           
+								<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+							</source>
+		</target-->	
+
+	<!--*************************************XOMP(2016S05)*********************************************************-->
+    <!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+        <source branch="features/xomp-web-IMRReplatform-1" revision="108">
+        </source>
+    </target-->
+
+	<!--*************************************XSB-Prem-Accounting(2016S0*)***********************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/dev" mailTo="deepak.kumar8@xchanging.com">
+			<source branch="releases/2016S01" revision="374">
+				<include branch="features/xsb-prem-accounting-Integrated-Pre-dev" fromRevision="486" toRevision="559"/>
+			</source>
+		</target-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-prem-accounting" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="374">
+				<include branch="features/xsb-prem-accounting-Integrated-Pre-dev" fromRevision="486" toRevision="559"/>
+			</source>
+		</target-->
+
+	<!--*************************************XSB-XDS(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-xds" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="190">
+				<include branch="features/xsb-xds-IMRReplatform-2" fromRevision="316" toRevision="320"/>
+			</source>
+		</target> 
+		<target repos="svn://xisscm.xchanging.com/xsb-xds" branch="environments/dev" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S01" revision="190">
+				<include branch="features/xsb-xds-IMRReplatform-2" fromRevision="315" toRevision="336"/>
+			</source>
+		</target-->
+		
+	<!--*************************************XSB-IMR(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+				<include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2152"/>
+			</source>
+		</target-->  
+				<!--include branch="features/xsb-imr-IMRReplatform-2" fromRevision="2042" toRevision="2043"/>
+				<include branch="features/xsb-imr-IMRReplatform-2" fromRevision="2043" toRevision="2081"/-->		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+				<include branch="features/xsb-imr-IMRReplatformDP-CMDP-fixes-1" fromRevision="2049" toRevision="2050"/>
+				<include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2152"/>
+			</source>
+		</target-->
+
+	<!--*************************************XSB-MTRT(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="130"/>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsb-mtrt" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xsb-mtrt-Integrated-pre-dev" revision="149"/>
+		</target-->
+		
+	<!--*************************************XSB-ECF(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="jay.bhusari@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-Integrated-Pre-dev" fromRevision="3483" toRevision="3633"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3540"/>
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3663"/>
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+            </source>
+		</target-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/tsb" mailTo="bhavika.varma@xchanging.com">
+			<source branch="releases/2016S02" revision="3418">           
+				<include branch="features/xsb-ecf-IMRReplatform-1" fromRevision="3286" toRevision="3375"/>
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3663"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3558"/>
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>			
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+			</source>
+		</target-->	 
+	<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="releases/2016S04" mailTo="jay.bhusari@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3663"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3558"/>
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>			
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+            </source>
+		</target-->		
+	
+	<!--*************************************IMR-XMA(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/dev" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2015S04" revision="3713">
+				<include branch="features/imr-xma-CSRP-CLAIMS-2" fromRevision="3723" toRevision="3737"/>
+			</source>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/imr-xma" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="3713">
+				<include branch="features/imr-xma-CSRP-CLAIMS-2" fromRevision="3723" toRevision="3737"/>
+			</source>
+		</target-->
+
+	<!--*************************************XDH(2016S03))***********************************************************-->      
+		<!--target repos="svn://xisscm.xchanging.com/xdh" branch="environment/tsb" mailTo="siddharth.saxena@xchanging.com">
+			<source branch="releases/2016S03" revision="3752">
+				<include branch="features/xdh-bau-2016S04-1" fromRevision="3764" toRevision="3782"/>
+				<include branch="features/xdh-boomerang-CR06-2016T02-1" fromRevision="3766" toRevision="3787"/>      
+			</source>
+		</target-->
+		
+		<!--*************************************XDH(2016S04))***********************************************************-->      
+		<!--target repos="svn://xisscm.xchanging.com/xdh" branch="releases/2016S04" mailTo="vijay.malik@xchanging.com">
+			<source branch="releases/2016S03" revision="3809">
+				<include branch="features/xdh-bau-2016S04-1" fromRevision="3764" toRevision="3782"/>
+				
+				</source>
+		</target-->
+		
+	<!--*************************************IMR-Content-Engine(2016S05)*********************************************--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S02" revision="492">
+			<include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="891"/> 
+			<include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>  
+            <include branch="releases/2016S02" fromRevision="503" toRevision="504"/>                   
+			</source>
+		</target-->
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/tsb" mailTo="deepak.kumar8@xchanging.com">
+			<source branch="releases/2016S02" revision="492">
+				<include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="675"/>                             
+				<include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="902"/>
+			</source>
+		</target-->		
+    
+	<!--*************************************IMR-WEB(2016S05)*********************************************************-->     
+  
+		<target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/dev" mailTo="jeewan.rekha@xchanging.com"> 
+			<source branch="releases/2016S02" revision="4993">
+				<include branch="features/imr-web-Integrated-Pre-dev" fromRevision="5112" toRevision="5208"/>
+			</source>
+			</target>
+				
+		<!--target repos="svn://xisscm.xchanging.com/imr-web" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com"> 
+			<source branch="releases/2016S02" revision="4993">
+				<include branch="features/imr-web-Integrated-Pre-dev" fromRevision="5112" toRevision="5175"/>
+			</source>
+		</target-->
+	<!--*************************************XSB-Utilities(2016S05)*********************************************************-->
+    <!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+            <source branch="releases/2016S01" revision="207">
+            <include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="643"/>
+            </source>
+	</target-->
+    
+		<!--target repos="svn://xisscm.xchanging.com/xsb-utilities" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S01" revision="207">
+				<include branch="features/xsb-utilities-Integrated-Pre-dev" fromRevision="474" toRevision="601"/>
+			</source>
+		</target-->	
+   
+	<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+				<include branch="features/imr-app-WBCR-19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7806" toRevision="7822"/>
+			</source>
+		</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="danveer.goel@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<!--include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7539"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="jeewan.rekha@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7614" toRevision="7615"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7539"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7694" toRevision="7695"/>
+			</source>
+		</target-->
+    
+	<!--*************************************IMR-Legacy(2016S05)*********************************************************--> 
+		<!--target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="1881">
+				<include branch="features/imr-legacy-CSRP-CLAIMS-1.1" fromRevision="1916" toRevision="1917"/>
+				<include branch="features/imr-legacy-IMRReplatform-1" fromRevision="1848" toRevision="1933"/>
+                <include branch="features/imr-legacy-IMRReplatform-2" fromRevision="1847" toRevision="1899"/>
+			</source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-legacy" branch="environments/tsb" mailTo="Ajay.Kumar3@xchanging.com">
+			<source branch="releases/2015S04" revision="1881">
+				<include branch="features/imr-legacy-IMRReplatform-2" fromRevision="1847" toRevision="1899">
+				<include branch="features/imr-legacy-IMRReplatform-1" fromRevision="1848" toRevision="1933"/>
+				<include branch="features/imr-legacy-CSRP-CLAIMS-1.1" fromRevision="1916" toRevision="1917"/>				
+			</source>
+		</target-->
+		
+	<!--*************************************IMR-Processes(2016S05)*********************************************************-->          
+		<!--target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="r1308">
+			</source>
+		</target>
+		<target repos="svn://xisscm.xchanging.com/imr-processes" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2015S04" revision="r1308">
+			</source>
+		</target-->
+            
+    
+     <!--*************************************DMS(2016S05)*****************************************************************-->               
+		<!--<target repos="svn://xisscm.xchanging.com/dms" branch="environments/dev" mailTo="Ajay.kumar3@xchanging.com">
+			<source branch="releases/2014S05_Temp" revision="2022">
+				<include branch="features/dms-IMRReplatform-2" fromRevision="2024" toRevision="2082"/>
+			</source>
+		</target--> 
+
+		
+		<!--target repos="svn://xisscm.xchanging.com/dms" branch="environments/tsb" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2014S05_Temp" revision="2022">
+				<include branch="features/dms-IMRReplatform-2" fromRevision="2024" toRevision="2032"/>
+			</source>
+		</target-->
+      
+	<!--*************************************IMR-Appsi(2016S05)*********************************************************-->      
+	<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="releases/2016S02" revision="1051">
+				<include branch="releases/2016S02" fromRevision="1066" toRevision="1067"/>
+				<include branch="features/imr-appsi-CSRP-CLAIMS-2" fromRevision="1068" toRevision="1168"/>
+				<include branch="features/imr-appsi-Integrated-Pre-dev" fromRevision="1114" toRevision="1224"/>
+			</source>
+	</target-->
+
+	<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/tsb" mailTo="hitesh.marwari@xchanging.com">
+            <source branch="releases/2016S02" revision="1067">
+				<include branch="features/imr-appsi-CSRP-CLAIMS-2" fromRevision="1068" toRevision="1168"/>
+				<include branch="features/imr-appsi-Integrated-Pre-dev" fromRevision="1114" toRevision="1211"/>
+            </source>
+		</target--> 
+
+	<!--*************************************CAS(2016S05)*********************************************************-->                       
+		<!--target repos="svn://xisscm.xchanging.com/cas" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="6563">
+			    <include branch="/features/cas-Integrated-Pre-dev" fromRevision="6741" toRevision="6767"/>
+				<!--include branch="features/cas-IMRReplatform-2" fromRevision="6570" toRevision="6707"/-->
+				<!--include branch="features/cas-IMRReplatform-2" fromRevision="6714" toRevision="6715"/-->
+            <!--/source>
+		</target-->              
+<!--/project-->
+		<!--target repos="svn://xisscm.xchanging.com/cas" branch="environments/tsb" mailTo="deepak.kumar8@xchanging.com">
+            <source branch="releases/2016S02" revision="6563">
+				<include branch="features/cas-IMRReplatform-2" fromRevision="6570" toRevision="6731"/>				
+            </source>
+		</target-->  
+		
+		      
+	<!--*************************************XSH(2016S05)*********************************************************-->            
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+				<include branch="features/xsh-Integrated-Pre-dev" fromRevision="2891" toRevision="2961"/> 
+				<include branch="features/xsh-CSRP-CLAIMS-1.1" fromRevision="2857" toRevision="2866"/>
+            </source>
+		</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/tsb" mailTo="hitesh.marwari@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+            </source>
+		</target-->   
+
+<!--*************************************IMR-APP(2016S04)*********************************************************-->
+<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="releases/2016S04" mailTo="ruchi.dhiman@xchanging.com">
+   <source branch="releases/2016S02" revision="7498">           
+			<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+			</source>
+		</target-->	
+		
+   <!--target repos="svn://xisscm.xchanging.com/imr-app" branch="features/imr-app-IMRReplatform-1" mailTo="rahul.arora@xchanging.com">
+   <source branch="releases/2016S02" revision="7498">           
+			<include branch="features/imr-app-IMRReplatform-1_backup" fromRevision="7454" toRevision="7801"/>
+			</source>
+		</target-->	
+
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="114"/>
+		</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="121"/>
+		</target-->
+
+		<!--target repos="svn://xisscm.xchanging.com/imr-appsi" branch="environments/tsd-test" mailTo="amit.bhat@xchanging.com">
+            <source branch="releases/2016S02" revision="1067">
+				<include branch="features/imr-appsi-CSRP-CLAIMS-2" fromRevision="1068" toRevision="1168"/>
+				<include branch="features/imr-appsi-Integrated-Pre-dev" fromRevision="1114" toRevision="1211"/>
+            </source>
+		</target--> 
+	<!--*************************************XSB-ECF(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+				<include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>
+				<include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+				<include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3540"/>
+				<include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3521"/>
+				<include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+				<include branch="features/xsb-ecf-Integrated-Pre-dev" fromRevision="3715" toRevision="3730"/>
+            </source>
+		</target-->
+		
+<!--*************************************XSH(2016S05)*********************************************************-->            
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/dev" mailTo="nikhil.gupta@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+				<include branch="features/xsh-IMRReplatform-2" fromRevision="2796" toRevision="2860"/> 
+				<include branch="features/xsh-IMRReplatform-1" fromRevision="2814" toRevision="2865"/>
+				<include branch="features/xsh-CSRP-CLAIMS-1.1" fromRevision="2857" toRevision="2866"/>
+            </source>
+		</target-->
+		
+		<!--target repos="svn://xisscm.xchanging.com/xsh" branch="environments/tsb" mailTo="hitesh.marwari@xchanging.com">
+            <source branch="releases/2016S02" revision="2743">
+            </source>
+		</target-->   	
+<!--*************************************XSB-IMR(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+			<include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2205"/>
+		</source>
+		</target-->
+
+
+<!--*************************************XOMP-Web(2016S05)*********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xomp-web" branch="environments/tsb" mailTo="nikhil.gupta@xchanging.com">
+			<source branch="features/xomp-web-IMRReplatform-1" revision="138"/>
+		</target-->
+		
+	<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7806" toRevision="7880"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch="features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target-->
+
+		
+<!--*************************************XSB-IMR(2016S05)**********************************************************-->
+		<!--target repos="svn://xisscm.xchanging.com/xsb-imr" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S01" revision="2006">
+			<include branch="features/xsb-imr-Integrated-Pre-dev" fromRevision="2103" toRevision="2353"/>
+		</source>
+		</target-->
+		
+		
+		<!--target repos="svn://xisscm.xchanging.com/imr-content-engine" branch="environments/tsb" mailTo="rahul.arora@xchanging.com">
+			<source branch="releases/2016S02" revision="492">
+			    <include branch="features/imr-content-engine-Integrated-Pre-dev" fromRevision="560" toRevision="1132"/>
+				<include branch="features/imr-content-engine-CSRP-CLAIMS-2" fromRevision="503" toRevision="860"/>                             
+			</source>
+		</target-->	
+
+        <!--target repos="svn://xisscm.xchanging.com/xsb-ecf" branch="environments/dev" mailTo="rahul.arora@xchanging.com">
+            <source branch="releases/2016S02" revision="3418">
+                    <include branch="features/xsb-ecf-WBCR19-1" fromRevision="3526" toRevision="3575"/>
+                    <include branch="features/xsb-ecf-CSRP-CLAIMS-1.1" fromRevision="3513" toRevision="3514"/>
+                    <include branch="features/xsb-ecf-September-PKE12267-PFT" fromRevision="3517" toRevision="3540"/>
+                    <include branch="features/xsb-ecf-September-PKE12206-PFT" fromRevision="3512" toRevision="3521"/>
+                    <include branch="features/xsb-ecf-September-PKE12218-PFT" fromRevision="3537" toRevision="3590"/>
+                   <include branch="features/xsb-ecf-Integrated-Pre-Dev" fromRevision="3714" toRevision="4028"/>
+            </source>
+        </target-->
+		
+		
+	<!--*************************************IMR-App(2016S05)*********************************************************-->               
+		<!--target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/dev" mailTo="hitesh.marwari@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<include branch="releases/2016S02" fromRevision="7381" toRevision="7382"/>
+				<include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7469" toRevision="7657"/>
+				<include branch="features/imr-app-WBCR-19-1" fromRevision="7638" toRevision="7639"/>
+				<include branch=" features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/> 
+			</source>
+		</target-->
+		
+		   <target repos="svn://xisscm.xchanging.com/imr-app" branch="environments/tsb" mailTo="aman.singha@xchanging.com">
+			<source branch="releases/2016S02" revision="7498">
+				<!--include branch="features/imr-app-Integrated-Pre-dev" fromRevision="7807" toRevision="7957"/-->
+				<include branch="features/imr-app-CSRP-CLAIMS-1.1" fromRevision="7625" toRevision="7633"/>
+				<include branch="features/imr-app-WBCR19-1" fromRevision="7638" toRevision="7639"/>
+			</source>
+			</target>
+	
+</project>
+
+
+
