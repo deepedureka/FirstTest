@@ -1,1 +1,3 @@
 This is placed in local and yet to be check in at Staging Area
+
+Now i am making a change for merge purpose
